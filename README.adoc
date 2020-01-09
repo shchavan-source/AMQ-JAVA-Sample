@@ -45,8 +45,6 @@ The application will be running at the following URL: http://localhost:8080/{art
 This application will display 3 text boxes to input the queue name, number of messages to be sent and size of each message in bytes.
 The receiver is only for the queue `mytest-queue-b16`, but messages can be sent to any queue.
 
-To send messages to the topic, use the following URL: http://localhost:8080/{artifactId}/HelloWorldMDBServletClient?topic
-
 == Investigate the Server Console Output
 
 Look at the {productName} console or Server log and you should see log messages like the following:
@@ -100,4 +98,10 @@ Look at the {productName} console or Server log and you should see log messages 
 
 == Broker Configuration
 
-* Create 
+* Create a static queue mytest-queue-b16
+* Update the broker.xml with following details
+add `;anycastPrefix=jms.queue.;multicastPrefix=jms.topic.` in the end of the <acceptor> tag. 
+The <acceptor> should look similar to : 
+<acceptor name="artemis">tcp://192.168.56.14:61616?tcpSendBufferSize=1048576;tcpReceiveBufferSize=1048576;protocols=CORE,MQTT;useEpoll=true;amqpCredits=1000;amqpLowCredits=300;anycastPrefix=jms.queue.;multicastPrefix=jms.topic.</acceptor>
+
+Adding anycastPrefix and multicastPrefix is necessary when EAP tries to make connection with Remote AMQ.
