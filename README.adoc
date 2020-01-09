@@ -107,6 +107,8 @@ Look at the {productName} console or Server log and you should see log messages 
 * Update the broker.xml with following details
 add `;anycastPrefix=jms.queue.;multicastPrefix=jms.topic.` in the end of the <acceptor> tag. 
 The <acceptor> should look similar to : 
+```
 <acceptor name="artemis">tcp://192.168.56.14:61616?tcpSendBufferSize=1048576;tcpReceiveBufferSize=1048576;protocols=CORE,MQTT;useEpoll=true;amqpCredits=1000;amqpLowCredits=300;anycastPrefix=jms.queue.;multicastPrefix=jms.topic.</acceptor>
+```
 
 Adding anycastPrefix and multicastPrefix is necessary when EAP tries to make connection with Remote AMQ.
