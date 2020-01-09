@@ -42,7 +42,12 @@ Look at the EAP console or server log and you should see log messages correspond
 == Access the Application
 
 The application will be running at the following URL: http://localhost:8080/{artifactId}/ and will send some bytes messages to the queue.
-This application will display 3 text boxes to input the queue name, number of messages to be sent and size of each message in bytes.
+This application will display 3 text boxes to input 
+```
+1. the queue name, 
+2. number of messages to be sent
+3. size of each message in bytes.
+```
 The receiver is only for the queue `mytest-queue-b16`, but messages can be sent to any queue.
 
 == Investigate the Server Console Output
