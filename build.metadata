@@ -1,0 +1,15 @@
+# Created by buildmetadata-maven-plugin 1.7.0 ( SHA: 6f444cae ) 
+build.artifactId=helloworld-mdb
+build.groupId=org.jboss.eap.quickstarts
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.java.runtime.name=Java(TM) SE Runtime Environment
+build.java.runtime.version=1.8.0_191-b12
+build.java.vendor=Oracle Corporation
+build.java.vm=Java HotSpot(TM) 64-Bit Server VM
+build.maven.execution.cmdline=-e clean package -Dcheckstyle.skip
+build.maven.version=3.6.1
+build.scmRevision.date=11.12.2019
+build.scmRevision.id=c02d5e493aaba78709dbe6f1de2a7dc8093d7de8
+build.scmRevision.url=scm\:git\:git@github.com\:jboss/jboss-parent-pom.git/quickstart-parent/helloworld-mdb
+build.version=7.2.0.GA
+build.version.full=7.2.0.GArc02d5e493aaba78709dbe6f1de2a7dc8093d7de8
