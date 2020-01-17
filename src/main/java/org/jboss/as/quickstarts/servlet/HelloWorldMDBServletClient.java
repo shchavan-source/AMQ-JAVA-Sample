@@ -72,14 +72,18 @@ public class HelloWorldMDBServletClient extends HttpServlet {
             byte[] bArr = new byte[msgSize];
             int msgProdCnter = 0;
             for (int i = 0; i < msgCnt; i++) {
-                /*String text = "This is message " + (i + 1);
-                context.createProducer().send(destination, text);
-                out.write("Message (" + i + "): " + text + "</br>");*/
-                context.createProducer().send(destination, bArr);
-                if (msgProdCnter % 1000 == 0) {
-                    out.write(msgProdCnter + " Messages produced </br>");
+                try {
+                    /*String text = "This is message " + (i + 1);
+                    context.createProducer().send(destination, text);
+                    out.write("Message (" + i + "): " + text + "</br>");*/
+                    context.createProducer().send(destination, bArr);
+                    if (msgProdCnter % 1000 == 0) {
+                        out.write(msgProdCnter + " Messages produced </br>");
+                    }
+                    msgProdCnter++;
+                }catch (Exception e){
+                    e.printStackTrace();
                 }
-                msgProdCnter++;
             }
             long totalTime = System.currentTimeMillis() - startTime;
             out.write("<p> " + msgProdCnter + " messages produced in <em>" + totalTime + "milliseconds</em></p>");

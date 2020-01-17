@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/standalone-full.xml" beforeDir="false" afterPath="$PROJECT_DIR$/standalone-full.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UrX8een0ofG8Yzl2KED4OjBhPU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,9 +25,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,15 +55,20 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576654737902">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/37.23.1403.877@37.23.1403.877" timestamp="1576654737902" />
-    <state x="247" y="100" key="SettingsEditor" timestamp="1576656716866">
+    <state x="247" y="100" key="SettingsEditor" timestamp="1579249293486">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1576656716866" />
+    <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1579249293486" />
     <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1576656091874">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
