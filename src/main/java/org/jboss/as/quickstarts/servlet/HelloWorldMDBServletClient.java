@@ -17,9 +17,7 @@
 package org.jboss.as.quickstarts.servlet;
 
 import javax.inject.Inject;
-import javax.jms.Destination;
-import javax.jms.JMSConnectionFactory;
-import javax.jms.JMSContext;
+import javax.jms.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -51,7 +49,7 @@ public class HelloWorldMDBServletClient extends HttpServlet {
 
     @Inject
     @JMSConnectionFactory("java:/Amq7CF")
-    private JMSContext context;
+    private ConnectionFactory context;
 
 
     @Override
@@ -62,11 +60,11 @@ public class HelloWorldMDBServletClient extends HttpServlet {
         try {
             Map<String, String[]> paramMap = req.getParameterMap();
             String qName = paramMap.get("qName")[0];
-            final Destination destination = context.createQueue(qName);
+//            final Destination destination = context.createQueue(qName);
             final int msgCnt = Integer.parseInt(paramMap.get("msgCnt")[0]);
             final int msgSize = Integer.parseInt(paramMap.get("msgSize")[0]);
             out.write("<p>Queue Name <em>" + qName + "</em></p>");
-            out.write("<p>Sending messages to <em>" + destination + "</em></p>");
+//            out.write("<p>Sending messages to <em>" + destination + "</em></p>");
             long startTime = System.currentTimeMillis();
             out.write("<h2>The following messages will be sent to the destination:</h2>");
             byte[] bArr = new byte[msgSize];
@@ -76,7 +74,10 @@ public class HelloWorldMDBServletClient extends HttpServlet {
                     /*String text = "This is message " + (i + 1);
                     context.createProducer().send(destination, text);
                     out.write("Message (" + i + "): " + text + "</br>");*/
-                    context.createProducer().send(destination, bArr);
+                    JMSContext session = context.createContext();
+                    session.createProducer().send(session.createQueue(qName), bArr);
+                    session.close();
+//                    context.createProducer().send(destination, bArr);
                     if (msgProdCnter % 1000 == 0) {
                         out.write(msgProdCnter + " Messages produced </br>");
                     }
