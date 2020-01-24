@@ -16,6 +16,7 @@
  */
 package org.jboss.as.quickstarts.servlet;
 
+import javax.annotation.Resource;
 import javax.inject.Inject;
 import javax.jms.*;
 import javax.servlet.ServletException;
@@ -47,7 +48,7 @@ public class HelloWorldMDBServletClient extends HttpServlet {
 
     private static final int MSG_COUNT = 5;
 
-    @Inject
+    @Resource
     @JMSConnectionFactory("java:/Amq7CF")
     private ConnectionFactory context;
 
