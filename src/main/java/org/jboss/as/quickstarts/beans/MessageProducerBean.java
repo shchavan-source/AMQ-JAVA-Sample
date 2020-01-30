@@ -11,13 +11,15 @@ public class MessageProducerBean {
 
     @Resource
     @JMSConnectionFactory("java:/Amq7CF")
-    private ConnectionFactory context;
+    private JMSContext context;
 
     public void SendMsg(String qName, int msgSize){
         System.out.println("Sending from: " + this.toString());
         byte[] bArr = new byte[msgSize];
-        JMSContext session = context.createContext();
-        session.createProducer().send(session.createQueue(qName), bArr);
-        session.close();
+//        JMSContext session = context.createContext();
+//        session.createProducer().send(session.createQueue(qName), bArr);
+//        session.close();
+        context.createProducer().send(context.createQueue(qName), bArr);
+        context.close();
     }
 }
