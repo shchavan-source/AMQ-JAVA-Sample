@@ -16,7 +16,10 @@
  */
 package org.jboss.as.quickstarts.servlet;
 
+import org.jboss.as.quickstarts.beans.MessageProducerBean;
+
 import javax.annotation.Resource;
+import javax.ejb.EJB;
 import javax.inject.Inject;
 import javax.jms.*;
 import javax.servlet.ServletException;
@@ -48,10 +51,8 @@ public class HelloWorldMDBServletClient extends HttpServlet {
 
     private static final int MSG_COUNT = 5;
 
-    @Resource
-    @JMSConnectionFactory("java:/Amq7CF")
-    private ConnectionFactory context;
-
+    @EJB
+    MessageProducerBean msgProdBean;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -68,16 +69,13 @@ public class HelloWorldMDBServletClient extends HttpServlet {
 //            out.write("<p>Sending messages to <em>" + destination + "</em></p>");
             long startTime = System.currentTimeMillis();
             out.write("<h2>The following messages will be sent to the destination:</h2>");
-            byte[] bArr = new byte[msgSize];
             int msgProdCnter = 0;
             for (int i = 0; i < msgCnt; i++) {
                 try {
                     /*String text = "This is message " + (i + 1);
                     context.createProducer().send(destination, text);
                     out.write("Message (" + i + "): " + text + "</br>");*/
-                    JMSContext session = context.createContext();
-                    session.createProducer().send(session.createQueue(qName), bArr);
-                    session.close();
+                    msgProdBean.SendMsg(qName, msgSize);
 //                    context.createProducer().send(destination, bArr);
                     if (msgProdCnter % 1000 == 0) {
                         out.write(msgProdCnter + " Messages produced </br>");

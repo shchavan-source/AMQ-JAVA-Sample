@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" afterDir="false" />
     </list>
@@ -9,6 +10,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,14 +68,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1580293974512">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state x="552" y="174" key="#com.intellij.ide.util.MemberChooser/37.23.1403.877@37.23.1403.877" timestamp="1580293974512" />
+    <state x="475" y="138" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1580293030742">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state x="475" y="138" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/37.23.1403.877@37.23.1403.877" timestamp="1580293030742" />
     <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576654737902">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/37.23.1403.877@37.23.1403.877" timestamp="1576654737902" />
-    <state x="247" y="100" key="SettingsEditor" timestamp="1579249293486">
+    <state x="247" y="100" key="SettingsEditor" timestamp="1580293311839">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1579249293486" />
+    <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1580293311839" />
     <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1576656091874">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
@@ -78,9 +95,9 @@
     </state>
     <state x="482" y="372" width="824" height="528" key="find.popup/37.23.1403.877@37.23.1403.877" timestamp="1576651894689" />
     <state x="483" y="423" width="673" height="462" key="find.popup/38.23.1402.877@38.23.1402.877" timestamp="1576115972336" />
-    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1576650886323">
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1580293968772">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1576650886323" />
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1580293968772" />
   </component>
 </project>

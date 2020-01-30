@@ -1,3 +1,4 @@
 org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.class
+org/jboss/as/quickstarts/beans/MessageProducerBean.class
 org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.class
 org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.class
