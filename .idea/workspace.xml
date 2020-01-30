@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,9 +95,9 @@
     </state>
     <state x="482" y="372" width="824" height="528" key="find.popup/37.23.1403.877@37.23.1403.877" timestamp="1576651894689" />
     <state x="483" y="423" width="673" height="462" key="find.popup/38.23.1402.877@38.23.1402.877" timestamp="1576115972336" />
-    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1580293968772">
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1580358213279">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1580293968772" />
+    <state x="403" y="213" width="670" height="676" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1580358213279" />
   </component>
 </project>

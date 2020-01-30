@@ -14,6 +14,7 @@ public class MessageProducerBean {
     private ConnectionFactory context;
 
     public void SendMsg(String qName, int msgSize){
+        System.out.println("Sending from: " + this.getClass());
         byte[] bArr = new byte[msgSize];
         JMSContext session = context.createContext();
         session.createProducer().send(session.createQueue(qName), bArr);
