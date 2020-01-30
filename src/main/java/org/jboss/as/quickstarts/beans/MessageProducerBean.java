@@ -2,6 +2,7 @@ package org.jboss.as.quickstarts.beans;
 
 import javax.annotation.Resource;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.jms.ConnectionFactory;
 import javax.jms.JMSConnectionFactory;
 import javax.jms.JMSContext;
@@ -9,7 +10,7 @@ import javax.jms.JMSContext;
 @Stateless
 public class MessageProducerBean {
 
-    @Resource
+    @Inject
     @JMSConnectionFactory("java:/Amq7CF")
     private JMSContext context;
 
