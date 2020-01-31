@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jboss.as.quickstarts.beans" />
       <recent name="org.jboss.as.quickstarts.servlet" />
     </key>
   </component>

@@ -16,7 +16,7 @@
  */
 package org.jboss.as.quickstarts.servlet;
 
-import org.jboss.as.quickstarts.beans.MessageProducerBean;
+import org.jboss.as.quickstarts.beans.*;
 
 import javax.annotation.Resource;
 import javax.ejb.EJB;
@@ -55,16 +55,16 @@ public class HelloWorldMDBServletClient extends HttpServlet {
     MessageProducerBean msgProdBean;
 
     @EJB
-    MessageProducerBean msgProdBean2;
+    MessageProducerBean1 msgProdBean2;
 
     @EJB
-    MessageProducerBean msgProdBean3;
+    MessageProducerBean2 msgProdBean3;
 
     @EJB
-    MessageProducerBean msgProdBean4;
+    MessageProducerBean3 msgProdBean4;
 
     @EJB
-    MessageProducerBean msgProdBean5;
+    MessageProducerBean4 msgProdBean5;
 
 
     @Override
