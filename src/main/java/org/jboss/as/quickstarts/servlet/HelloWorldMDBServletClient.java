@@ -54,19 +54,6 @@ public class HelloWorldMDBServletClient extends HttpServlet {
     @EJB
     MessageProducerBean msgProdBean;
 
-    @EJB
-    MessageProducerBean1 msgProdBean2;
-
-    @EJB
-    MessageProducerBean2 msgProdBean3;
-
-    @EJB
-    MessageProducerBean3 msgProdBean4;
-
-    @EJB
-    MessageProducerBean4 msgProdBean5;
-
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
@@ -89,10 +76,6 @@ public class HelloWorldMDBServletClient extends HttpServlet {
                     context.createProducer().send(destination, text);
                     out.write("Message (" + i + "): " + text + "</br>");*/
                     msgProdBean.SendMsg(qName, msgSize);
-                    msgProdBean2.SendMsg(qName, msgSize);
-                    msgProdBean3.SendMsg(qName, msgSize);
-                    msgProdBean4.SendMsg(qName, msgSize);
-                    msgProdBean5.SendMsg(qName, msgSize);
 //                    context.createProducer().send(destination, bArr);
                     if (msgProdCnter % 1000 == 0) {
                         out.write(msgProdCnter + " Messages produced </br>");
