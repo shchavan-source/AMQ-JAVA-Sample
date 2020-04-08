@@ -19,7 +19,12 @@ package org.jboss.as.quickstarts.mdb;
 import java.util.logging.Logger;
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;
-import javax.jms.*;
+import javax.jms.BytesMessage;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.TextMessage;
+import javax.jms.JMSException;
+//import javax.jms.*;
 
 /**
  * <p>
@@ -29,7 +34,7 @@ import javax.jms.*;
  * @author Serge Pagop (spagop@redhat.com)
  */
 @MessageDriven(name = "HelloWorldQueueMDB", activationConfig = {
-        @ActivationConfigProperty(propertyName = "destination", propertyValue = "mytest-queue-b16"),
+        @ActivationConfigProperty(propertyName = "destination", propertyValue = "TestQueue"),
         @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
         @ActivationConfigProperty(propertyValue = "40",propertyName = "maxSession"),
         @ActivationConfigProperty(propertyValue = "false",propertyName = "useJNDI")}
