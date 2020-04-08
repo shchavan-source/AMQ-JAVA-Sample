@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration/standalone-openshift.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/standalone-openshift.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

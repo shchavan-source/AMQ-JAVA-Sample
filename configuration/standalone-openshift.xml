@@ -582,7 +582,7 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
         <outbound-socket-binding name="messaging-remote-master1">
-            <remote-destination host="ex-aao-ss-2.ex-aao-hdls-svc.amq-broker-operator.svc.cluster.local" port="61616"/>
+            <remote-destination host="ex-aao-ss-1.ex-aao-hdls-svc.amq-broker-operator.svc.cluster.local" port="61616"/>
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
