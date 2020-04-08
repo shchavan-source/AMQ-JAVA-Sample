@@ -583,10 +583,10 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
         <outbound-socket-binding name="messaging-remote-master1">
-            <remote-destination host="ex-aao-artemis-0-svc" port="61616"/>
+            <remote-destination host="ex-aao-artemis-0-svc-rte-amq-broker-operator.apps.cluster-5e7f.sandbox373.opentlc.com" port="61616"/>
         </outbound-socket-binding>
         <outbound-socket-binding name="messaging-remote-master2">
-            <remote-destination host="ex-aao-artemis-1-svc" port="61616"/>
+            <remote-destination host="ex-aao-artemis-1-svc-rte-amq-broker-operator.apps.cluster-5e7f.sandbox373.opentlc.com" port="61616"/>
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
