@@ -1,8 +1,8 @@
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient5.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient2.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient3.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient4.java
-/Users/shchavan/AMQ-JAVA-Sample/helloworld-mdb/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient3.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient5.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient2.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java
+/Users/shchavan/broker/operator/AMQ-JAVA-Sample/AMQ-JAVA-Sample/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient4.java
