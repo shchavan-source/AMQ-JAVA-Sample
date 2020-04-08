@@ -449,7 +449,6 @@
                 </http-connector>
                 <remote-connector name="netty-remote-master1" socket-binding="messaging-remote-master1"/>
                 <remote-connector name="netty-remote-master2" socket-binding="messaging-remote-master2"/>
-                <remote-connector name="netty-remote-master3" socket-binding="messaging-remote-master3"/>
                 <in-vm-connector name="in-vm" server-id="0">
                     <param name="buffer-pooling" value="false"/>
                 </in-vm-connector>
