@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70ce70e-d633-45a8-bdc1-5ba8a9443795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/configuration/standalone-openshift.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/standalone-openshift.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/beans/MessageProducerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloworld-mdb-project-sources.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloworld-mdb-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloworld-mdb.war" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,25 +90,14 @@
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="477" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/37.23.1403.877@37.23.1403.877" timestamp="1580450033794" />
-    <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576654737902">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state x="469" y="326" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/37.23.1403.877@37.23.1403.877" timestamp="1576654737902" />
     <state x="247" y="100" key="SettingsEditor" timestamp="1580293311839">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="247" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1580293311839" />
-    <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1576656091874">
+    <state x="394" y="230" width="689" height="462" key="find.popup" timestamp="1586341895744">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="394" y="296" key="com.intellij.ide.util.TipDialog/37.23.1403.877/1440.23.1920.1057@37.23.1403.877" timestamp="1576141692613" />
-    <state x="394" y="296" key="com.intellij.ide.util.TipDialog/37.23.1403.877@37.23.1403.877" timestamp="1576656091874" />
-    <state x="395" y="296" key="com.intellij.ide.util.TipDialog/38.23.1402.877@38.23.1402.877" timestamp="1576117814797" />
-    <state x="482" y="372" width="824" height="528" key="find.popup" timestamp="1576651894689">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state x="482" y="372" width="824" height="528" key="find.popup/37.23.1403.877@37.23.1403.877" timestamp="1576651894689" />
-    <state x="483" y="423" width="673" height="462" key="find.popup/38.23.1402.877@38.23.1402.877" timestamp="1576115972336" />
+    <state x="394" y="230" width="689" height="462" key="find.popup/37.23.1403.877@37.23.1403.877" timestamp="1586341895744" />
     <state x="403" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1580358213279">
       <screen x="37" y="23" width="1403" height="877" />
     </state>

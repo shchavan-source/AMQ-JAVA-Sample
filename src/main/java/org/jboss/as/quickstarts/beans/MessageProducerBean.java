@@ -19,6 +19,7 @@ public class MessageProducerBean {
 //        session.createProducer().send(session.createQueue(qName), bArr);
 //        session.close();
         context.createProducer().send(context.createQueue(qName), bArr);
+        System.out.println("Message sent");
 //        context.close();
     }
 }
