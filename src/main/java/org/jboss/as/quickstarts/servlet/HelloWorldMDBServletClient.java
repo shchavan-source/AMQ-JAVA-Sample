@@ -16,7 +16,8 @@
  */
 package org.jboss.as.quickstarts.servlet;
 
-import org.jboss.as.quickstarts.beans.*;
+
+import org.jboss.as.quickstarts.beans.MessageProducerBean;
 
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
