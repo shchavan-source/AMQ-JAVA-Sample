@@ -34,10 +34,10 @@ import javax.jms.JMSException;
  * @author Serge Pagop (spagop@redhat.com)
  */
 @MessageDriven(name = "HelloWorldQueueMDB", activationConfig = {
-        @ActivationConfigProperty(propertyName = "destination", propertyValue = "TestQueue"),
+        @ActivationConfigProperty(propertyName = "destination", propertyValue = "testQueue2"),
         @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
-        @ActivationConfigProperty(propertyValue = "40",propertyName = "maxSession"),
-        @ActivationConfigProperty(propertyValue = "true",propertyName = "useJNDI")}
+        @ActivationConfigProperty(propertyValue = "20",propertyName = "maxSession"),
+        @ActivationConfigProperty(propertyValue = "false",propertyName = "useJNDI")}
         )
 public class HelloWorldQueueMDB implements MessageListener {
 
