@@ -37,7 +37,7 @@ import javax.jms.JMSException;
         @ActivationConfigProperty(propertyName = "destination", propertyValue = "TestQueue"),
         @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
         @ActivationConfigProperty(propertyValue = "40",propertyName = "maxSession"),
-        @ActivationConfigProperty(propertyValue = "false",propertyName = "useJNDI")}
+        @ActivationConfigProperty(propertyValue = "true",propertyName = "useJNDI")}
         )
 public class HelloWorldQueueMDB implements MessageListener {
 
